@@ -1,8 +1,7 @@
 Este projeto demonstra uma integração completa de captura de dados (Web-to-Lead), validação de regras de negócio via código (Apex) e automação de processos (Flow).
 
-🛠️ Arquitetura do Projeto
+Arquitetura do Projeto
 O fluxo de dados segue a seguinte hierarquia:
-
 Front-end: Página estática hospedada no GitHub Pages utilizando Tailwind CSS.
 
 Integração: Captura via protocolo POST (Web-to-Lead) diretamente para o endpoint da Salesforce API.
