@@ -14,8 +14,9 @@
             
             <!-- SUBSTITUA O VALOR ABAIXO PELO SEU OID -->
             <input type="hidden" name="oid" value="00Dg50000095VM9">
-            <input type="hidden" name="retURL" href=obrigado.html>
-            <div class="space-y-4">
+            <!-- O Salesforce lê este 'value' para saber para onde pular após o envio -->
+<input type="hidden" name="retURL" value="https://jardell-ps.github.io/salesforce-lead-form/obrigado.html">
+            <div class="space-y-4">       
                 <input name="first_name" placeholder="Nome" type="text" required class="w-full border p-2 rounded">
                 <input name="last_name" placeholder="Sobrenome" type="text" required class="w-full border p-2 rounded">
                 <input name="email" placeholder="E-mail" type="email" required class="w-full border p-2 rounded">
